@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first webpage</title>
+        <link rel="icon" type="images/png" href="images/my logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+
+    <body>
+        <h1><u> HELLO FOLKS I AM DHAIRYAJEET SINGH</u></h1>
+        <h2> I am learning web dev</h2>
+        <div class="pagination">
+            <a href="index.html"><</a>
+            <a href="index.html" class="active">1</a>
+            <a href="page2.html">2</a>
+            <a href="page3.html">3</a>
+            <a href="page4.html">4</a>
+            <a href="page5.html">5</a>
+            <a href="page2.html">></a>
+
+        </div>
+        <br>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Page 2</a></li>
+                <li><a href="page3.html">Page 3</a></li>
+                <li><a href="page4.html">page 4</a></li>
+                <li><a href="page5.html">Page 5</a></li>
+            </ul>
+        </nav>
+        
+        <br>
+
+        <pre>
+            I am doing engineering in computer science which is difficult but fun
+            I used to do machine learning( i still do) but now
+            I am also doing web dev
+        </pre>
+        <br>
+
+        <h4 id="png">It's a smiling husky 🐺</h4>
+        <img src="images/dog.png"
+        height="400"
+        alt="Huskies" id="img1">
+
+        <h4 id="gif"> It's a husky gif 🐺</h4>
+        <img src="images/husky.gif"
+        height="400"
+        width="600"
+        alt="A dog" id="img2">
+        
+
+        <br>
+
+        <h4>A quick link to google chrome below 👇</h4>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=8Xd64OQM0z-93Y3y"
+            target="_blank"
+            title="goes to google 🎶">   
+            CLICK ME
+        </a>
+        <br><br>
+
+        <h3>My logo/favicon</h3>
+        <img src="images/my logo.png">
+
+        <!-- i like to play-->
+
+        <br><br>
+
+        <div class="dropdown">
+            <button>Food</button>
+            <div class="content">
+                <a href="">APPLE</a>
+                <a href="">MANGO</a>
+                <a href="">PINEAPPLE</a>
+
+            </div>
+        </div>
+        <!--ul-->
+        <h4>An unorganised list of american fast food chains operating in India</h4>
+        <ul class="food">
+            <li>Kfc</li>
+            <li>Mcdonalds</li>
+            <li>Pizzahut</li>
+            <li>Burgerking</li>
+        </ul>
+        <h4>A list of different breeds of dogs</h4>
+        <ol>
+            <li>golden retriever</li>
+            <li>huskies</li>
+            <li>pug</li>
+            <li>german shephard</li>
+        </ol>
+
+        <h3>table of my college hours</h3>
+        <table border="2">
+            <tr align="center" style="background-color:rgb(241, 241, 85);">
+                <th width="100">Monday</th>
+                <th width="100">Tuseday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+                <th width="100">Sunday</th>
+            </tr>
+            <tr align="center" style="background-color:lightyellow;">
+                <td>8AM-2:30PM</td>
+                <td>8AM-2:30PM</td>
+                <td>8AM-4:30PM</td>
+                <td>9AM-3:30PM</td>
+                <td>10AM-2:30PM</td>
+                <td>Close</td>
+                <td>Close</td>
+            </tr>
+        </table>
+
+        <br><br>
+        <a href="https://www.britannica.com/animal/owl" target="_blank">
+        <button style="font-size: 30px; background-color:crimson; align-self:center; border-radius: 20px;">CLICK HERE 🦉</button>
+        </a>
+        <br><br>
+        <form for="username" method="POST" enctype="multipart/form-data">
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="Enter your first name" minlength="4" maxlength="25" required>
+            <br>
+
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="Enter your password" minlength="8" maxlength="20" required>
+            <br>
+
+            <label for="email">email</label>
+            <input type="email" id="email" placeholder="Enter your email" minlength="10" maxlength="50" required>
+            <br>
+
+            <label for="phone">phonenumber#</label>
+            <input type="tel" id="phone" placeholder="+00 000-000-0000" patter="+[0-9]{2} [0-9]{3}-[0-9]{3} [0-9]{4}" minlength="8" maxlength="20" required>
+            <br>
+
+            <label for="bday">birthdate</label>
+            <input type="date" id="bday" required>
+            <br>
+         
+            <label for="quantity">quantity</label>
+            <input type="number" id="quantity" min="0" max="99" value="1">
+            <br>
+
+            <label for="title">title:</label>
+            
+            <label for="=Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="=Mrs.">Mrs.</label>
+            <input type="radio" id="Mrs." value="Mrs." name="title">
+            <label for="=Dr.">Dr.</label>
+            <input type="radio" id="Dr." value="Dr." name="title">
+            <br>
+
+            <label for="payment">payment</label>
+            <select id="payment">
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="UPI">UPI</option>
+                <option value="giftcard">giftcard</option>
+                <option value="Cash on delivery">Cash on delivery</option>
+            </select><br>
+
+            <label for="subscribe">subscribe for mails</label>
+            <input type="email" id="email" placeholder="enter email to get mail about future services" max="50">
+            <input type="checkbox" id="subscribe"><br><br>
+
+            <label for="comment">Add comment/feedback</label>
+            <textarea id="comment" row="5" cols="25"></textarea>
+            <br>
+
+            <label for="file">file</label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+            <br><br>
+
+            <input type="reset"><br>
+            <input type="submit">
+        </form><br>
+        <div class="box" id="box1">DOG </div>
+        <br><br><br>
+
+
+            <span class="material-symbols-outlined" >
+                css
+                <span class="material-symbols-outlined">
+                    html
+                    <a href="https://www.linkedin.com/in/dhairyajeet-singh-151236253/" target="_blank"><span class="material-symbols-outlined">
+                        DJ
+                    </a>
+                        <a href="https://www.google.com/" target="_blank"><span class="material-symbols-outlined">
+                            home
+                        </a>
+                        <style>
+                            .material-symbols-outlined {
+                                font-size: 180px;
+                                color:darkgreen;
+                            font-variation-settings:
+                            'FILL' 0,
+                            'wght' 400,
+                            'GRAD' 0,
+                            'opsz' 24
+                            
+                            }
+                            
+                            </style>
+                        </span>
+                    </span>
+                </span>
+            </span>
+    </body>
+
+
+</html>

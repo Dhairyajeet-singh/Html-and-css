@@ -1,0 +1,182 @@
+body{
+    background-color:lightgoldenrodyellow;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px
+}
+h1{
+    color:mediumseagreen;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 2px 6px;
+}
+h3{
+    color:beige;
+}
+h4{
+    color:forestgreen;
+    margin-right: auto;
+    font-size: 30px;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color:rgb(8, 124, 60);
+}
+
+pre{border: 3px dotted crimson;
+    border-radius: 10px;
+    color:brown;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left;
+}
+ form{
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    color: indianred;
+    background-color: lightgray;
+    text-align: center;
+    margin:left;
+ }
+
+.box{border: 5px solid;
+    font-size:5em ;
+    width: 250px;
+    height: 200px;
+    
+}
+#box1{background-color: crimson;
+    margin: auto;
+    text-align: left;
+    font-size: 120px;
+    color:gold;
+    border-color: black;
+    padding:10px;
+}
+
+#img1{
+    margin-top: 70px;
+    float: left
+}
+#img2{
+    margin-left: 200px;
+    
+}
+#gif{
+    text-align: center;
+    position: relative;
+    top:-20px;
+}
+#png{
+    text-align-last: left;
+    position: relative;
+    top:40px;
+}
+a:link{
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(149, 114, 225);
+}
+
+a:active{color: blue;}
+ 
+#food li::after{content: "o";}
+
+    #Kfc ::after{
+        content:"🍗";
+    }
+    #Mcdonalds::after{
+        content: "🍔";
+    }
+    #Burgerking::after{
+        content: "🍟";
+    }
+    #Pizzahut::after{
+        content: "🍕";
+    }
+
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:rgb(16, 3, 3);
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: bisque;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: rgba(211, 211, 211, 0.15);
+    border-radius: 10px;
+}
+.dropdown{
+    display:inline-block ;
+}
+.dropdown button{
+    background-color: rgb(42, 1, 80);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px;
+    border-radius: 10px;
+    padding: 15px 15px;
+    cursor: pointer;
+}
+.dropdown a{
+    display:block;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color:antiquewhite;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rebeccapurple;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0,0%,25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:rgb(35, 230, 247);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0,0%,5%);
+}
+.navbar li{
+    float: left;
+}
